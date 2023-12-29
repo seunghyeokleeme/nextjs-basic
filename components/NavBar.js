@@ -15,14 +15,11 @@ export default function NavBar() {
         About
       </Link>
       <style jsx>{`
-        nav {
-          background-color: tomato;
-        }
         nav > :global(a) {
           text-decoration: none;
         }
         nav > :global(.active) {
-          color: yellow;
+          color: tomato;
         }
       `}</style>
     </nav>
